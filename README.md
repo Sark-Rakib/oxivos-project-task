@@ -1,16 +1,149 @@
-# React + Vite
+# OXIVOS - Fashion Store 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive fashion e-commerce frontend built with **React.js** and **Tailwind CSS**. OXIVOS provides a clean shopping experience where users can explore products, view product details, select variations, and manage their shopping cart easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 Live Website: Add your deployed link here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Modern fashion store UI design
+- 🛍️ Browse fashion products
+- 👕 Product listing page
+- 🔍 Product details page
+- 🎨 Select product size and color
+- 🛒 Add products to cart
+- 🧾 Cart management system
+- 🔢 Dynamic cart quantity update
+- ❌ Remove products from cart
+- 💰 Automatic total price calculation
+- 💾 Cart data persistence using Local Storage
+- 📱 Fully responsive design for all devices
+- ⚡ Fast and smooth user experience
+- 🧭 React Router based navigation
+
+---
+
+## 🛠️ Technologies Used
+
+## Frontend
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router
+- React Icons
+- Axios
+
+## Tools
+
+- Vite
+- Git & GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── Components
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   └── ProductCard.jsx
+│
+├── Pages
+│   ├── Home.jsx
+│   ├── Products.jsx
+│   ├── ProductDetails.jsx
+│   └── Cart.jsx
+│
+├── Utils
+│   └── cart.js
+│
+├── Router
+│   └── Router.jsx
+│
+└── main.jsx
+```
+
+---
+
+## 🛒 Cart Functionality
+
+The cart system allows users to:
+
+- Add products to cart
+- Select product size and color
+- Increase or decrease quantity
+- Remove products from cart
+- Calculate total price dynamically
+- Save cart items in Local Storage
+- Restore cart data after page refresh
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/oxivos-fashion-store.git
+```
+
+Go to project folder:
+
+```bash
+cd oxivos-project-task
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Dependencies
+
+```json
+{
+  "react": "^19",
+  "tailwindcss": "latest",
+  "axios": "latest",
+  "react-icons": "latest"
+}
+```
+
+---
+
+## 👨‍💻 Author
+
+**Rakib Sarker**
+
+Frontend Developer
+
+### GitHub
+
+🔗 https://github.com/Sark-Rakib
+
+### LinkedIn
+
+🔗 https://www.linkedin.com/in/rakib-sarker-
+
+### Portfolio
+
+🔗 https://sark-rakib.netlify.app
