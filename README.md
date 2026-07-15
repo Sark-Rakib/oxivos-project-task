@@ -94,7 +94,7 @@ The cart system allows users to:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/oxivos-fashion-store.git
+git clone https://github.com/Sark-Rakib/oxivos-project-task.git
 ```
 
 Go to project folder:
