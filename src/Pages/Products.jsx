@@ -3,26 +3,32 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router";
 import { addToCart } from "../Utils/cart";
+import Loading from "../Component/Loading";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     const fetchProduct = async () => {
       try {
         const res = await axios.get("/data.json");
         // console.log(res.data);
         setProducts(res.data);
-      } catch (error) {
-        console.log(error);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchProduct();
   }, []);
 
+  if (loading) {
+    return <Loading></Loading>;
+  }
+
   return (
     <div>
-      <div className="px-5 py-12">
+      <div className="min-h-screen px-5 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {products.map((product) => (
             <Link
