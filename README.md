@@ -6,7 +6,7 @@ A modern and responsive fashion e-commerce frontend built with **React.js** and 
 
 ## 🚀 Live Demo
 
-🔗 Live Website: Add your deployed link here
+🔗 Live Website: https://oxivoss-products.vercel.app
 
 ---
 
