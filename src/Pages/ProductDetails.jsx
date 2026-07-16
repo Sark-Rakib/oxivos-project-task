@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { FiShoppingBag, FiTruck, FiRefreshCw, FiShield } from "react-icons/fi";
 import { addToCart } from "../Utils/cart";
+import Loading from "../Component/Loading";
 const ProductDetails = () => {
   const { id } = useParams();
 
@@ -36,7 +37,7 @@ const ProductDetails = () => {
   if (!data) {
     return (
       <div className="min-h-screen flex justify-center items-center text-2xl font-semibold">
-        Loading...
+        <Loading></Loading>
       </div>
     );
   }
