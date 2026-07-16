@@ -31,9 +31,12 @@ const Hero = () => {
               Shop Now
             </Link>
 
-            <button className="border border-black px-8 py-4 rounded hover:bg-black hover:text-white transition">
+            <Link
+              to="/about"
+              className="border border-black px-8 py-4 rounded hover:bg-black hover:text-white transition"
+            >
               Explore
-            </button>
+            </Link>
           </div>
         </div>
 

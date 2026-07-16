@@ -12,7 +12,7 @@ const About = () => {
           />
 
           <div className="absolute bottom-5 left-5 bg-white p-6 rounded-xl shadow-lg">
-            <h3 className="text-3xl font-bold">5+</h3>
+            <h3 className="text-3xl font-bold text-black">1+</h3>
             <p className="text-gray-500">Years of Fashion Experience</p>
           </div>
         </div>
