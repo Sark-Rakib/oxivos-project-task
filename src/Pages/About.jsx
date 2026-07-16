@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 const About = () => {
   return (
     <section className="px-5 py-20">
@@ -63,9 +64,11 @@ const About = () => {
             </div>
           </div>
 
-          <button className="mt-10 bg-black text-white px-8 py-4 rounded-full hover:bg-zinc-800 transition">
-            Explore Collection
-          </button>
+          <Link to="/products">
+            <button className="mt-10 bg-black text-white px-8 py-4 rounded-full hover:bg-zinc-800 transition">
+              Explore Collection
+            </button>
+          </Link>
         </div>
       </div>
     </section>
